@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos01", "EjemploHilos01\EjemploHilos01.csproj", "{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos01", "EjemploHilos01\EjemploHilos01.csproj", "{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos02", "EjemploHilos02\EjemploHilos02.csproj", "{88B27C34-6018-4E90-8415-F22DF82F0F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos03", "EjemploHilos03\EjemploHilos03.csproj", "{BD18D43B-6A71-402E-B39D-B177A3A668FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos04", "EjemploHilos04\EjemploHilos04.csproj", "{787CDAD5-2242-4730-B74D-B46985E0F77A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos05", "EjemploHilos05\EjemploHilos05.csproj", "{4E7849F2-7A18-4FC2-ADA5-B3D763D6E674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos06", "EjemploHilos06\EjemploHilos06.csproj", "{B1462735-4269-45DE-BD1D-240A1442307A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B27C34-6018-4E90-8415-F22DF82F0F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B27C34-6018-4E90-8415-F22DF82F0F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B27C34-6018-4E90-8415-F22DF82F0F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B27C34-6018-4E90-8415-F22DF82F0F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD18D43B-6A71-402E-B39D-B177A3A668FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD18D43B-6A71-402E-B39D-B177A3A668FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD18D43B-6A71-402E-B39D-B177A3A668FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD18D43B-6A71-402E-B39D-B177A3A668FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787CDAD5-2242-4730-B74D-B46985E0F77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787CDAD5-2242-4730-B74D-B46985E0F77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787CDAD5-2242-4730-B74D-B46985E0F77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787CDAD5-2242-4730-B74D-B46985E0F77A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7849F2-7A18-4FC2-ADA5-B3D763D6E674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7849F2-7A18-4FC2-ADA5-B3D763D6E674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7849F2-7A18-4FC2-ADA5-B3D763D6E674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7849F2-7A18-4FC2-ADA5-B3D763D6E674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1462735-4269-45DE-BD1D-240A1442307A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1462735-4269-45DE-BD1D-240A1442307A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1462735-4269-45DE-BD1D-240A1442307A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1462735-4269-45DE-BD1D-240A1442307A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
