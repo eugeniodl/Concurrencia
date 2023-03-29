@@ -8,5 +8,9 @@ namespace EjemploHilos01
 {
     internal class Random
     {
+        public Random()
+        {
+
+        }
     }
 }
