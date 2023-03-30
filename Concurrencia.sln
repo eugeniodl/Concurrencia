@@ -5,19 +5,23 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos01", "EjemploHilos01\EjemploHilos01.csproj", "{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos02", "EjemploHilos02\EjemploHilos02.csproj", "{59D63F6D-EF14-428E-8101-A9FD20883CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos02", "EjemploHilos02\EjemploHilos02.csproj", "{59D63F6D-EF14-428E-8101-A9FD20883CFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos03", "EjemploHilos03\EjemploHilos03.csproj", "{123DDF66-BBDB-4D9F-B4EA-3F624991EDDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos03", "EjemploHilos03\EjemploHilos03.csproj", "{123DDF66-BBDB-4D9F-B4EA-3F624991EDDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos04", "EjemploHilos04\EjemploHilos04.csproj", "{E8718F63-48B8-470D-8B8C-EA38B82B8335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos04", "EjemploHilos04\EjemploHilos04.csproj", "{E8718F63-48B8-470D-8B8C-EA38B82B8335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos05", "EjemploHilos05\EjemploHilos05.csproj", "{CB96496F-26F1-4406-AF6D-6942962C3413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos05", "EjemploHilos05\EjemploHilos05.csproj", "{CB96496F-26F1-4406-AF6D-6942962C3413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos06", "EjemploHilos06\EjemploHilos06.csproj", "{A976136B-CE98-4051-852D-C2791D326DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos06", "EjemploHilos06\EjemploHilos06.csproj", "{A976136B-CE98-4051-852D-C2791D326DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos07", "EjemploHilos07\EjemploHilos07.csproj", "{A82A58ED-DCD4-4443-B0BA-D50992376F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos07", "EjemploHilos07\EjemploHilos07.csproj", "{A82A58ED-DCD4-4443-B0BA-D50992376F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos08", "EjemploHilos08\EjemploHilos08.csproj", "{52037E7E-B4D2-4212-91A1-30A19A9A9B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos08", "EjemploHilos08\EjemploHilos08.csproj", "{52037E7E-B4D2-4212-91A1-30A19A9A9B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winThreads01", "winThreads01\winThreads01.csproj", "{19B6AEB5-6A27-456F-A91F-FD46FBAE23A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winThreads02", "winThreads02\winThreads02.csproj", "{9A3E046A-8E15-4115-A219-06DD8FA6EFEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{52037E7E-B4D2-4212-91A1-30A19A9A9B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52037E7E-B4D2-4212-91A1-30A19A9A9B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52037E7E-B4D2-4212-91A1-30A19A9A9B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B6AEB5-6A27-456F-A91F-FD46FBAE23A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B6AEB5-6A27-456F-A91F-FD46FBAE23A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B6AEB5-6A27-456F-A91F-FD46FBAE23A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B6AEB5-6A27-456F-A91F-FD46FBAE23A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3E046A-8E15-4115-A219-06DD8FA6EFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3E046A-8E15-4115-A219-06DD8FA6EFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3E046A-8E15-4115-A219-06DD8FA6EFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3E046A-8E15-4115-A219-06DD8FA6EFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
