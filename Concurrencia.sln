@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos05", "EjemploHi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos06", "EjemploHilos06\EjemploHilos06.csproj", "{4C088CD2-5628-40B6-B864-2E4D61AB90D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos07", "EjemploHilos07\EjemploHilos07.csproj", "{4B00D217-A66D-4B23-9F70-B57E6461BC88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos07", "EjemploHilos07\EjemploHilos07.csproj", "{4B00D217-A66D-4B23-9F70-B57E6461BC88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos08", "EjemploHilos08\EjemploHilos08.csproj", "{2FAA5A87-8818-45BC-8C26-D282675497E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos08", "EjemploHilos08\EjemploHilos08.csproj", "{2FAA5A87-8818-45BC-8C26-D282675497E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winHilos", "winHilos\winHilos.csproj", "{F8FC944D-985A-4D21-990A-31D736811E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winHilos02", "winHilos02\winHilos02.csproj", "{751E775F-5393-42A6-B8C6-F92B6AFDD64A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{2FAA5A87-8818-45BC-8C26-D282675497E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FAA5A87-8818-45BC-8C26-D282675497E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FAA5A87-8818-45BC-8C26-D282675497E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FC944D-985A-4D21-990A-31D736811E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FC944D-985A-4D21-990A-31D736811E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FC944D-985A-4D21-990A-31D736811E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FC944D-985A-4D21-990A-31D736811E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751E775F-5393-42A6-B8C6-F92B6AFDD64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751E775F-5393-42A6-B8C6-F92B6AFDD64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751E775F-5393-42A6-B8C6-F92B6AFDD64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751E775F-5393-42A6-B8C6-F92B6AFDD64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
