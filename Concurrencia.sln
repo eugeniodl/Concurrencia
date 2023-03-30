@@ -5,15 +5,19 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos01", "EjemploHilos01\EjemploHilos01.csproj", "{93A68EF4-82A0-40C5-8EA8-A3F3EDAD3F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos02", "EjemploHilos02\EjemploHilos02.csproj", "{21EC4B6F-E6AD-4A3A-9128-C5B66F72F1B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos02", "EjemploHilos02\EjemploHilos02.csproj", "{21EC4B6F-E6AD-4A3A-9128-C5B66F72F1B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos03", "EjemploHilos03\EjemploHilos03.csproj", "{4DEC60F0-A0C0-4A68-A642-D4A753A68462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos03", "EjemploHilos03\EjemploHilos03.csproj", "{4DEC60F0-A0C0-4A68-A642-D4A753A68462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos04", "EjemploHilos04\EjemploHilos04.csproj", "{BE6FA53C-219C-483A-B63F-FD0309EC4923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos04", "EjemploHilos04\EjemploHilos04.csproj", "{BE6FA53C-219C-483A-B63F-FD0309EC4923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos05", "EjemploHilos05\EjemploHilos05.csproj", "{D520783D-ECC5-4A10-8B97-622DCCE58345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos05", "EjemploHilos05\EjemploHilos05.csproj", "{D520783D-ECC5-4A10-8B97-622DCCE58345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHilos06", "EjemploHilos06\EjemploHilos06.csproj", "{F567E3A5-376F-4509-A80D-324F62D05F93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploHilos06", "EjemploHilos06\EjemploHilos06.csproj", "{F567E3A5-376F-4509-A80D-324F62D05F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winThreads01", "winThreads01\winThreads01.csproj", "{66148FF5-1023-404A-9307-6693B4DC12C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winThreads02", "winThreads02\winThreads02.csproj", "{5D8775AD-CA58-47A4-A2B7-61DDEFE47711}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{F567E3A5-376F-4509-A80D-324F62D05F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F567E3A5-376F-4509-A80D-324F62D05F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F567E3A5-376F-4509-A80D-324F62D05F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66148FF5-1023-404A-9307-6693B4DC12C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66148FF5-1023-404A-9307-6693B4DC12C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66148FF5-1023-404A-9307-6693B4DC12C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66148FF5-1023-404A-9307-6693B4DC12C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8775AD-CA58-47A4-A2B7-61DDEFE47711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8775AD-CA58-47A4-A2B7-61DDEFE47711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8775AD-CA58-47A4-A2B7-61DDEFE47711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8775AD-CA58-47A4-A2B7-61DDEFE47711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
