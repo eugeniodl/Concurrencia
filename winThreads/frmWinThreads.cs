@@ -13,6 +13,7 @@ namespace winThreads
     public partial class frmWinThreads : Form
     {
         Thread hilo;
+        delegate void delegado(int valor);
         public frmWinThreads()
         {
             InitializeComponent();
@@ -32,27 +33,48 @@ namespace winThreads
         {
             for (int i = 0; i < 101; i++)
             {
-                pb1.Value = i;
+                //pb1.Value = i;
+                delegado MD = new delegado(Actualizar1);
+                this.Invoke(MD, new object[] { i });
                 Thread.Sleep(70);
             }
+        }
+
+        private void Actualizar1(int valor)
+        {
+            pb1.Value = valor;
         }
 
         private void SubProceso2()
         {
             for (int i = 0; i < 101; i++)
             {
-                pb2.Value = i;
+                //pb2.Value = i;
+                delegado MD = new delegado(Actualizar2);
+                this.Invoke(MD, new object[] { i });
                 Thread.Sleep(40);
             }
+        }
+
+        private void Actualizar2(int valor)
+        {
+            pb2.Value = valor;
         }
 
         private void SubProceso3()
         {
             for (int i = 0; i < 101; i++)
             {
-                pb3.Value = i;
+                //pb3.Value = i;
+                delegado MD = new delegado(Actualizar3);
+                this.Invoke(MD, new object[] { i });
                 Thread.Sleep(100);
             }
+        }
+
+        private void Actualizar3(int valor)
+        {
+            pb3.Value = valor;
         }
     }
 }
