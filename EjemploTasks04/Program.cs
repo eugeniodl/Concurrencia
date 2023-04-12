@@ -7,8 +7,16 @@ Task tarea = Task.Run(() => MetodoTask(cancelaToken));
 for (int i = 0; i < 100; i++)
 {
     acumulador += 30;
+    Thread.Sleep(1000);
+    if (acumulador > 100)
+    {
+        miToken.Cancel();
+        break;
+    }
 }
-
+Thread.Sleep(1000);
+Console.WriteLine("Valor del acumulador " + acumulador);
+Console.ReadKey();
 
 void MetodoTask(CancellationToken token)
 {
@@ -18,5 +26,11 @@ void MetodoTask(CancellationToken token)
         var miThread = Thread.CurrentThread.ManagedThreadId;
         Thread.Sleep(1000);
         Console.WriteLine("Ejecutando tarea el thread: " + miThread);
+        Console.WriteLine(acumulador);
+        if(token.IsCancellationRequested)
+        {
+            acumulador = 0;
+            return;
+        }
     }
 }
