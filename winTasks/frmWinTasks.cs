@@ -26,13 +26,13 @@ namespace winTasks
             {
                 Task[] tareas =
                 {
-                    Task.Factory.StartNew(() => IncreaseValue(txtConteo1, pb1, 150, 1),
-                    CancellationToken.None, TaskCreationOptions.LongRunning, _scheduler),
-                    Task.Factory.StartNew(() => IncreaseValue(txtConteo2, pb2, 180, 1),
+                    Task.Factory.StartNew(() => IncreaseValue(txtConteo4, pb4, 200, 1),
                     CancellationToken.None, TaskCreationOptions.LongRunning, _scheduler),
                     Task.Factory.StartNew(() => IncreaseValue(txtConteo3, pb3, 50, 1),
                     CancellationToken.None, TaskCreationOptions.LongRunning, _scheduler),
-                    Task.Factory.StartNew(() => IncreaseValue(txtConteo4, pb4, 200, 1),
+                    Task.Factory.StartNew(() => IncreaseValue(txtConteo2, pb2, 180, 1),
+                    CancellationToken.None, TaskCreationOptions.LongRunning, _scheduler),
+                    Task.Factory.StartNew(() => IncreaseValue(txtConteo1, pb1, 150, 1),
                     CancellationToken.None, TaskCreationOptions.LongRunning, _scheduler)
                 };
                 Task.WaitAll(tareas);
@@ -44,7 +44,7 @@ namespace winTasks
         private void IncreaseValue(TextBox t, ProgressBar p, int r, int c)
         {
             p.Maximum = r;
-            for (int i = 0; i < r; i++)
+            for (int i = 0; i <= r; i++)
             {
                 int result = i * c;
                 Thread.Sleep(10);

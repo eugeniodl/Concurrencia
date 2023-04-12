@@ -23,15 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "winThreads01", "winThreads0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "winThreads02", "winThreads02\winThreads02.csproj", "{9A3E046A-8E15-4115-A219-06DD8FA6EFEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTasks01", "EjemploTasks01\EjemploTasks01.csproj", "{CA734F85-F961-43FB-A9D5-CFEB4BFE7A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTasks01", "EjemploTasks01\EjemploTasks01.csproj", "{CA734F85-F961-43FB-A9D5-CFEB4BFE7A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTasks02", "EjemploTasks02\EjemploTasks02.csproj", "{93405BFF-DF4C-4527-8885-5B3CD97F35E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTasks02", "EjemploTasks02\EjemploTasks02.csproj", "{93405BFF-DF4C-4527-8885-5B3CD97F35E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTasks03", "EjemploTasks03\EjemploTasks03.csproj", "{57D10C48-E31A-41CF-A739-2D4C970E9E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTasks03", "EjemploTasks03\EjemploTasks03.csproj", "{57D10C48-E31A-41CF-A739-2D4C970E9E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTasks04", "EjemploTasks04\EjemploTasks04.csproj", "{A2610CD7-F2A1-4C54-A52E-CC08C90A79CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTasks04", "EjemploTasks04\EjemploTasks04.csproj", "{A2610CD7-F2A1-4C54-A52E-CC08C90A79CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winTasks", "winTasks\winTasks.csproj", "{536DF651-56DD-4D0A-9075-26A71CC5CC0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "winTasks", "winTasks\winTasks.csproj", "{536DF651-56DD-4D0A-9075-26A71CC5CC0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploAsyncAwait", "EjemploAsyncAwait\EjemploAsyncAwait.csproj", "{89B1A1AF-49E7-46DF-906F-418919341017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploAsyncAwait01", "EjemploAsyncAwait01\EjemploAsyncAwait01.csproj", "{AC7675DD-11DD-4302-B3E7-DB9F6067B828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{536DF651-56DD-4D0A-9075-26A71CC5CC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536DF651-56DD-4D0A-9075-26A71CC5CC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536DF651-56DD-4D0A-9075-26A71CC5CC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B1A1AF-49E7-46DF-906F-418919341017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B1A1AF-49E7-46DF-906F-418919341017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B1A1AF-49E7-46DF-906F-418919341017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B1A1AF-49E7-46DF-906F-418919341017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7675DD-11DD-4302-B3E7-DB9F6067B828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7675DD-11DD-4302-B3E7-DB9F6067B828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7675DD-11DD-4302-B3E7-DB9F6067B828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7675DD-11DD-4302-B3E7-DB9F6067B828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
