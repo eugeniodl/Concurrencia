@@ -1,12 +1,24 @@
 ﻿Task t = Task.Run(() =>
 {
-    Thread.Sleep(5000);
+    //Thread.Sleep(5000);
     Console.WriteLine("Ejecutando task");
 });
 
-double resultado = LeerDataDesdeBD();
+await t;
+
+//double resultado = LeerDataDesdeBD();
+double resultado = await LeerDataDesdeBDAsync();
 
 Console.WriteLine(resultado);
+
+async Task<double> LeerDataDesdeBDAsync()
+{
+    var t = new Task<double>(() => HacerCalculosIntensivos());
+    t.Start();
+    double resultado = await t;
+    return resultado;
+}
+
 
 double LeerDataDesdeBD()
 {
