@@ -1,6 +1,6 @@
 ﻿Task t = Task.Run(() =>
 {
-    Thread.Sleep(5000);
+    //Thread.Sleep(5000);
     Console.WriteLine("Ejecutando task");
 });
 await t;
